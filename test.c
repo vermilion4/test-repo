@@ -91,7 +91,6 @@ int print_octal(va_list o)
 {
     char *str;
     unsigned int a = va_arg(o, unsigned int);
-    int j = 0;
     int k = 0;
 
     str = malloc(sizeof(char) * 12);
