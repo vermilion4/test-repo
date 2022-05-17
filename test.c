@@ -217,6 +217,7 @@ int _printf(const char *format, ...)
                 write(1, "%", 1);
             else if (format[i] == 'a' || format[i] == 'b' || format[i] == 'e' || format[i] == 'f' || format[i] == 'g' || format[i] == 'n' || format[i] == 'r' || format[i] == 's' || format[i] == 't')
             {
+                write(1, "%", 1);
                 write(1, &format[i], 1);
             }
 
