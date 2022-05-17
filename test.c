@@ -49,8 +49,6 @@ int print_int(va_list i)
     else
     k--;
     k++;
-    str[k] = '\0';
-    k--;
     while (k >= 0)
     {
         write(1, &str[k], 1);
