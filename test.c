@@ -65,7 +65,6 @@ int print_unint(va_list u)
 {
     char *str;
     unsigned int a = va_arg(u, unsigned int);
-    int j = 0;
     int k = 0;
 
     str = malloc(sizeof(char) * 12);
