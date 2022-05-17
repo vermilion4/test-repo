@@ -118,7 +118,6 @@ int print_hex(va_list h)
 {
     char *str;
     unsigned int a = va_arg(h, unsigned int);
-    int j = 0;
     int k = 0;
 
     str = malloc(sizeof(char) * 12);
@@ -148,7 +147,6 @@ int print_address(va_list a)
 {
     char *str;
     unsigned int b = va_arg(a, unsigned int);
-    int j = 0;
     int k = 0;
 
     str = malloc(sizeof(char) * 12);
